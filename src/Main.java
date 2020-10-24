@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Successfully created light version");   
+        PrimeGenerator primeGenerator = new PrimeGenerator();
+        System.out.println(primeGenerator.generatePrimes(50));
+        System.out.println("Successfully created light version");
     }
 }
